@@ -21,7 +21,7 @@ $(document).ready(function () {
 
 				for (let i = 0; i < data.results.length; i++) {
 
-					let imagePath = "http://image.tmdb.org/t/p/w185";
+					let imagePath = "https://image.tmdb.org/t/p/w185";
 
 					if (data.results[i].poster_path != null) {
 						imagePath += data.results[i].poster_path;
@@ -168,7 +168,7 @@ $(document).on('click','.back',function(){
 				return response.json();
 			})
 			.then((data) => {
-				imagePath = `http://image.tmdb.org/t/p/w500`;
+				imagePath = `https://image.tmdb.org/t/p/w500`;
 				console.log(data);
 				$('.display').hide();
 				$('.display-2').show();
