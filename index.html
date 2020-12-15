@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Title</title>
+</head>
+
+<body>
+
+    <section class="main">
+
+        <div class="container">
+            <div class="search row">
+                <div class="col-12 py-5">
+                    <form>
+                        <label class="search-label" for="search">Search for movies</label>
+                        <input class="search-input" type="text" name="search" id="search"
+                            placeholder="Enter movie title...">
+                        <input class="check mt-2" type="submit" value="Check">
+
+                    </form>
+                </div>
+            </div>
+        </div>
+       
+
+
+        <div class="genres container align-items-center justify-content-center">
+            <ul class="row justify-content-center align-items-center">
+                <a id="focus" class="active d-flex align-items-center col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" href="#" id="focus" name="popular"
+                    data-id="popular">
+                    <li>Popular</li>
+                </a>
+                <a class="d-flex align-items-center col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" href="#" data-id='27'>
+                    <li>Horror</li>
+                </a>
+                <a class="d-flex align-items-center col-12 col-sm-6 col-md-4 col-lg-3  col-xl-2" href="#" data-id='28'>
+                    <li>Action</li>
+                </a>
+                <a class="d-flex align-items-center col-12 col-sm-6 col-md-4 col-lg-3  col-xl-2" href="#" data-id="16">
+                    <li>Animation</li>
+                </a>
+                <a class="d-flex align-items-center col-12 col-sm-6 col-md-4 col-lg-3  col-xl-2" href="#" data-id="18">
+                    <li>Drama</li>
+                </a>
+                <a class="d-flex align-items-center col-12 col-sm-6 col-md-4 col-lg-3  col-xl-2" href="#" data-id="12">
+                    <li>Adventurous</li>
+                </a>
+
+
+
+            </ul>
+        </div>
+        <div class="container bg-white">
+            <div class="row display">
+
+
+
+
+            </div>
+            <div id="ds-2" class="row display-2"></div>
+
+        </div>
+
+
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

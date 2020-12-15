@@ -1,0 +1,117 @@
+@keyframes example {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #383838;
+}
+body .fade-in {
+  animation-name: example;
+  animation-duration: 2s;
+}
+body .main {
+  padding-bottom: 100px;
+  min-height: 100vh;
+}
+body .main .hidden {
+  display: none;
+}
+body .main .faded-out {
+  opacity: 0;
+}
+body .main .container .check {
+  display: block;
+  margin: 0 auto;
+}
+body .main .container .display .movie-container {
+  padding-top: 30px;
+}
+body .main .container .display .show-more {
+  width: 90%;
+  margin: 0 auto;
+}
+body .main .display {
+  background-color: white;
+  text-align: center;
+  padding-bottom: 50px;
+}
+body .main .display .movie-container:hover {
+  opacity: 0.7;
+}
+body .main .content-size {
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding: 50px 10px 50px 10px;
+  margin-bottom: 50px;
+}
+body .main .content-size h3 {
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+body .main .content-size img {
+  display: block;
+  margin: 0 auto;
+}
+body .main .content-size .center {
+  text-align: center;
+}
+body .main .search {
+  height: 200px;
+  background-color: #383838;
+}
+body .main .search .search-label {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+body .main .search .search-input {
+  display: block;
+  margin: 0 auto;
+  min-width: 300px;
+}
+body .main .genres {
+  padding-left: 0;
+  padding-right: 0;
+}
+body .main .genres ul {
+  background-color: #272626;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 0;
+  height: 100%;
+  color: white;
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+body .main .genres ul a {
+  min-height: 50px;
+  justify-content: center;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+}
+body .main .genres ul a:hover {
+  color: black;
+  background-color: white;
+}
+body .main .genres ul a:nth-child(1) {
+  border-top-left-radius: 10px;
+}
+body .main .genres ul a:nth-child(6) {
+  border-top-right-radius: 10px;
+}
+body .main .genres ul .active {
+  background-color: white;
+  color: black;
+}
+body .main .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
